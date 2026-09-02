@@ -1,0 +1,11 @@
+[project]
+name = "carParser"
+version = "0.1.0"
+dependencies = ["pyserial"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["carParser"]
