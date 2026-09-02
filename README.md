@@ -5,7 +5,7 @@ A simple, thread-safe serial protocol parser/writer for a car/robot controller b
 ## Install
 
 ```bash
-pip install -e
+pip install -e .
 ```
 
 > [!WARNING]
