@@ -5,7 +5,7 @@ A simple, thread-safe serial protocol parser/writer for a car/robot
 controller board.
 
 Usage:
-'''py
+```py
     import carParser
     carParser.init("/dev/AMA0", 921600)
 
@@ -20,7 +20,7 @@ Usage:
     carParser.beep(1, 2)
     carParser.servo(1, 2, 3, 4)
     carParser.led(1, 2)
-'''
+```
 
 Wire format (all lines newline-terminated with '\\n'):
     $IMU,gx,gy,gz,ax,ay,az,roll,pitch,yaw
